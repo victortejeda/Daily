@@ -170,6 +170,7 @@
                         <outlet property="buttonNegro" destination="gwG-ed-80i" id="nCt-E1-LQL"/>
                         <outlet property="condionesYterminos" destination="ap7-lU-4ac" id="k5b-Eh-5Ml"/>
                         <outlet property="icono2App" destination="apr-rH-kLa" id="bBs-U0-gyd"/>
+                        <outlet property="iconoApp" destination="Pip-ez-Qgx" id="KJu-X4-NRF"/>
                         <outlet property="nombreApp" destination="sxq-wY-WpM" id="Q8c-w6-8ml"/>
                         <outlet property="subtituloApp" destination="lvh-mo-pNu" id="yXe-eB-xC3"/>
                     </connections>
