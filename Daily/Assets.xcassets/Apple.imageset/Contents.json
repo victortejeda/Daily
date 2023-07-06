@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Email.png",
+      "filename" : "Apple.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Email@2x.png",
+      "filename" : "Apple@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Email@3x.png",
+      "filename" : "Apple@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
