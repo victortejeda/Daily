@@ -26,7 +26,10 @@ class ViewController3: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+//        buttonMarcador.layer.masksToBounds = true
+//        buttonMarcador.layer.cornerRadius = 22
+        
+        
     }
     
 

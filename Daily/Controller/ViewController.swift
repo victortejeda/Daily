@@ -30,11 +30,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        botonazul.layer.cornerRadius = 22
+        botonazul.layer.cornerRadius = 16
         // para quitar los bordes feos que sobresalen
         botonazul.layer.masksToBounds = true
     
-        botonnegro.layer.cornerRadius = 22
+        botonnegro.layer.cornerRadius = 16
         botonnegro.layer.masksToBounds = true
         
         

@@ -9,22 +9,32 @@ import UIKit
 
 class ViewController2: UIViewController {
 
-    @IBOutlet weak var iconoAp: UIImageView!
+    @IBOutlet weak var buttomGoogle: UIButton!
+    @IBOutlet weak var buttomFacebook: UIButton!
+    @IBOutlet weak var buttomTwitter: UIButton!
+    @IBOutlet weak var buttomEmail: UIButton!
+    @IBOutlet weak var buttomApple: UIButton!
     
-    @IBOutlet weak var imagenFondo: UIImageView!
-    @IBOutlet weak var Presentacion: UILabel!
-    @IBOutlet weak var buttongoogle: UIView!
-    @IBOutlet weak var buttonFacebook: UIView!
-    @IBOutlet weak var buttonTwitter: UIView!
-    @IBOutlet weak var buttonGmail: UIView!
-    @IBOutlet weak var buttoApple: UIView!
-    @IBOutlet weak var informacioinDeregisrtro: UIView!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+       
+        buttomGoogle.layer.cornerRadius = 22
+        buttomFacebook.layer.cornerRadius = 22
+        buttomTwitter.layer.cornerRadius = 22
+        buttomEmail.layer.cornerRadius = 22
+        buttomApple.layer.cornerRadius = 22
+        // para quitar los bordes feos que sobresalen
+        buttomGoogle.layer.masksToBounds = true
+        buttomFacebook.layer.masksToBounds = true
+        buttomTwitter.layer.masksToBounds = true
+        buttomEmail.layer.masksToBounds = true
+        buttomApple.layer.masksToBounds = true
+    
+ 
+        
     }
     
 
