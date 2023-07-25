@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Logo: UIImageView!
     
+    @IBOutlet weak var scrollView: UIScrollView!
+    
     @IBOutlet weak var nombreApp: UIImageView!
     @IBOutlet weak var iconoApp: UIImageView!
     @IBOutlet weak var subtituloApp: UIImageView!
@@ -28,7 +30,10 @@ class ViewController: UIViewController {
     
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+          super.viewDidLoad()
+
+          // Enable scrolling
+        scrollView.isScrollEnabled = true
         
         botonazul.layer.cornerRadius = 16
         // para quitar los bordes feos que sobresalen
